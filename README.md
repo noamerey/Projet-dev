@@ -26,17 +26,13 @@ Enfin pour les tutoriels vidéo des machines, nous envisageons deux options : r�
 
 Analyse fonctionnelle :
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/1fce19fa-1def-4b6f-be57-d3d31e5a62cc)
-
 Analyse structurelle :
 Affichage des événements avec le calendrier
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/8574d52d-716e-4906-912a-c3181725eac2)
-
 Inscription au Fabcyber avec le formulaire :
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/38353bff-cd3e-4e80-9d54-b5ed64391d5f)
-
 L’implémentation des tutos vidéo:
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/28c3ddf5-32e3-44de-a2ce-f3eaad68abfe)
-
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/9f4d7df1-0ebc-41d9-9e77-31bfc70e2a3a)
 
 Outils à utiliser et éléments requis
@@ -46,7 +42,7 @@ Outil : Wordpress pour créer et gérer le site web.
 Éléments requis : 
 
 -Accès de la base de données DVIC pour récupérer des données qui sont les tutoriels pour l’utilisation des outils du FabLab.
-- Avoir accès au règlement intérieur et à la charte éthique afin de l’inclure au site et de pouvoir demander aux utilisateurs de l’accepter. Si la charte et le règlement ne sont pas transmis un document “vierge” sera mis à la place. Le document indiquera que les documents nécessaires n’auront pas été transmis à date et heure.
+-Avoir accès au règlement intérieur et à la charte éthique afin de l’inclure au site et de pouvoir demander aux utilisateurs de l’accepter. Si la charte et le règlement ne sont pas transmis un document “vierge” sera mis à la place. Le document indiquera que les documents nécessaires n’auront pas été transmis à date et heure.
 -Avoir accès aux serveurs afin de pouvoir ajouter la page web au site.
 -Avoir un accès au calendrier des évènements.
 -Avoir accès à la charte Graphique du site du PTCC
