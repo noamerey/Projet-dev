@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>Fiche d'inscription au LabCyber</h1>
+
+<form action="/action_page.php" method="post">
+  <div class="input-container">
+    <label for="fname">Prénom<span class="required"></span></label><br>
+    <input type="text" id="fname" name="fname" required><br>
+  </div>
+  <div class="input-container">
+    <label for="lname">Nom<span class="required"></span></label><br>
+    <input type="text" id="lname" name="lname" required><br>
+  </div>
+  <div class="input-container">
+    <label for="email">Mail<span class="required"></span></label><br>
+    <input type="email" id="email" name="email" required><br>
+  </div>
+  <div class="input-container">
+    <label for="company">Entreprise</label><br>
+    <input type="text" id="company" name="company"><br>
+  </div>
+  <div class="input-container">
+    <label for="function">Fonction</label><br>
+    <input type="text" id="function" name="function"><br><br>
+  </div>
+  <div id="captcha"required></div>
+    <img src="captcha.png" alt="captchalogo" id="captchaImg">
+  <div class="checkbox-container">
+    <label for="reglement" class="checkbox-label">
+      <input type="checkbox" id="reglement" name="règlement" value="règlement" required>
+      <p>J'accèpte de respecter le <a href="https://ptcc.fr/fab-lab/"> règlement intérieur du FabCyber</a></p>
+    </label><br>
+    <label for="charte" class="checkbox-label">
+      <input type="checkbox" id="charte" name="charte" value="charte" required>
+      J'accèpte de respecter la <a href="https://ptcc.fr/fab-lab/"> charte éthique du FabCyber</a>
+    </label><br>
+    <label for="newsletter" class="checkbox-label">
+      <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+      Je souhaite recevoir la newsletter du FabCyber
+    </label><br><br>
+  </div>
+  <input type="submit" value="Soumettre">
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
