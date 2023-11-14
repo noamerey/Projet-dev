@@ -25,30 +25,38 @@ Enfin pour les tutoriels vidéo des machines, nous envisageons deux options : r�
 
 ### Analyse fonctionnelle:
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/8b8e483b-f32c-4dcf-acde-173aa0eb70e5)
-
 ### Analyse structurelle:
 #### Affichage des événements avec le calendrier
-![image](https://github.com/noamerey/Projet-dev/assets/95354215/7b6760f4-1516-4a2c-ae92-8450427a5435)
+![image](https://github.com/noamerey/Projet-dev/assets/95354215/f1522b70-f74b-4789-ae1f-816df3986ebb)
 #### Inscription au Fabcyber avec le formulaire
-![image](https://github.com/noamerey/Projet-dev/assets/95354215/06158a1d-c723-44fd-9ae2-0cd2f4b714d4)
+![image](https://github.com/noamerey/Projet-dev/assets/95354215/b38d4230-4850-4471-8d0d-095dcf7bb211)
 #### L’implémentation des tutos vidéo
-![image](https://github.com/noamerey/Projet-dev/assets/95354215/86de9502-cdd0-4570-abea-5bbfe1ff524c)
-![image](https://github.com/noamerey/Projet-dev/assets/95354215/b488479a-e3aa-42a0-8a5e-80fc5cefa53a)
+1. Proposition 1 : accès à la BDD de DVIC
+![image](https://github.com/noamerey/Projet-dev/assets/95354215/e66f4b7d-8b11-4b6d-a15b-f2148856f4aa)
+2. Proposition 2 : Accès à l’API	Implémentation vidéos
+![image](https://github.com/noamerey/Projet-dev/assets/95354215/1a435872-b4e4-46f0-8d22-49afca05ea68)
+3. Accès à l’API	Implémentation vidéos
+![image](https://github.com/noamerey/Projet-dev/assets/95354215/c13f0649-f476-4fe5-b4eb-f7f748b657de)
+![image](https://github.com/noamerey/Projet-dev/assets/95354215/e5113619-0fe4-487e-8ab1-ee683633d4ed)
+
+
+
+
 #### Outils à utiliser et éléments requis
 Outil : Wordpress pour créer et gérer le site web. ![image](https://github.com/noamerey/Projet-dev/assets/95354215/95785aa7-eae7-4b91-a778-7422e0a42a29)
 
 
 #### Éléments requis : 
-Accès de la base de données DVIC pour récupérer des données qui sont les tutoriels pour l’utilisation des outils du FabLab. /n
+Accès de la base de données DVIC pour récupérer des données qui sont les tutoriels pour l’utilisation des outils du FabLab.  
 Avoir accès au règlement intérieur et à la charte éthique afin de l’inclure au site et de pouvoir demander aux utilisateurs de l’accepter. Si la charte et le règlement ne sont pas transmis un document “vierge” sera mis à la place. Le document indiquera que les documents nécessaires n’auront pas été transmis à date et heure.
 
-Avoir accès aux serveurs afin de pouvoir ajouter la page web au site.
+Avoir accès aux serveurs afin de pouvoir ajouter la page web au site.  
 
-Avoir un accès au calendrier des évènements.
+Avoir un accès au calendrier des évènements.  
 
-Avoir accès à la charte Graphique du site du PTCC.
+Avoir accès à la charte Graphique du site du PTCC.  
 
-Avoir accès au Captcha.
+Avoir accès au Captcha.  
 
 https://dvic.devinci.fr/knowledge-base
 Planning et deadline
