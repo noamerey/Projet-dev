@@ -23,10 +23,10 @@ Une confirmation de la lecture des chartes informatiques sera obligatoire pour s
 
 Enfin pour les tutoriels vidéo des machines, nous envisageons deux options : récupérer les tutoriels depuis la base de données DVIC en ayant les accès, ou créer une nouvelle base de données dédiée avec suffisamment d'espace d'hébergement pour stocker l'ensemble des vidéos.
 
-### Analyse fonctionnelle :
+### Analyse fonctionnelle:
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/8b8e483b-f32c-4dcf-acde-173aa0eb70e5)
 
-### Analyse structurelle :
+### Analyse structurelle:
 #### Affichage des événements avec le calendrier
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/7b6760f4-1516-4a2c-ae92-8450427a5435)
 #### Inscription au Fabcyber avec le formulaire
@@ -39,12 +39,17 @@ Outil : Wordpress pour créer et gérer le site web. ![image](https://github.com
 
 
 #### Éléments requis : 
-Accès de la base de données DVIC pour récupérer des données qui sont les tutoriels pour l’utilisation des outils du FabLab.
+Accès de la base de données DVIC pour récupérer des données qui sont les tutoriels pour l’utilisation des outils du FabLab. /n
 Avoir accès au règlement intérieur et à la charte éthique afin de l’inclure au site et de pouvoir demander aux utilisateurs de l’accepter. Si la charte et le règlement ne sont pas transmis un document “vierge” sera mis à la place. Le document indiquera que les documents nécessaires n’auront pas été transmis à date et heure.
+
 Avoir accès aux serveurs afin de pouvoir ajouter la page web au site.
+
 Avoir un accès au calendrier des évènements.
-Avoir accès à la charte Graphique du site du PTCC
-Avoir accès au Captcha
+
+Avoir accès à la charte Graphique du site du PTCC.
+
+Avoir accès au Captcha.
+
 https://dvic.devinci.fr/knowledge-base
 Planning et deadline
 ##### Planning prévisionnel :
