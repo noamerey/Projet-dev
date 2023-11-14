@@ -1,4 +1,4 @@
-## **Cahier des charges :**
+## Cahier des charges :
 
 ### Présentation du projet :
 
