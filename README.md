@@ -48,7 +48,7 @@ Analyse fonctionnelle :
 
 
 
-Analyse structurelle
+Analyse structurelle :
 Affichage des événements avec le calendrier
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/8574d52d-716e-4906-912a-c3181725eac2)
 
@@ -72,7 +72,7 @@ Affichage des événements avec le calendrier
 
 
 
-Inscription au Fabcyber avec le formulaire
+Inscription au Fabcyber avec le formulaire :
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/38353bff-cd3e-4e80-9d54-b5ed64391d5f)
 
  
@@ -94,8 +94,9 @@ Inscription au Fabcyber avec le formulaire
 
 
 
-L’implémentation des tutos vidéo
+L’implémentation des tutos vidéo:
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/28c3ddf5-32e3-44de-a2ce-f3eaad68abfe)
+
 ![image](https://github.com/noamerey/Projet-dev/assets/95354215/9f4d7df1-0ebc-41d9-9e77-31bfc70e2a3a)
 
 
