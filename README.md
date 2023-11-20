@@ -12,7 +12,7 @@ Il faut un moyen qui permettrai aux collaborateurs de pouvoir consulter les info
 
 ## Enjeux du projet
 
-Le projet a pour enjeu d’offrir une meilleure accessibilité aux utilisateurs ayant besoin d’accéder au FabCyber et permettre à celui-ci d’avoir un suivi des gens intéressé par le LabCyber.
+Le projet a pour enjeu d’offrir une meilleure accessibilité aux utilisateurs ayant besoin d’accéder au LabCyber et permettre à celui-ci d’avoir un suivi des gens intéressé par le LabCyber.
 
 ## Fonctionnalités du site
 
