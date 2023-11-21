@@ -29,7 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $entreprise = $_POST["entreprise"];
     $fonction = $_POST["fonction"];
 
- 
     $sqlInsertion = "INSERT INTO Formulaire (Prenom, Nom, Mail, Entreprise, Fonction) VALUES ('$prenom', '$nom', '$mail', '$entreprise', '$fonction')";
 
   
