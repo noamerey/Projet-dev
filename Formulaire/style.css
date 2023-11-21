@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-    background-color: #f5f5ef;
+    background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,5 +101,17 @@ p{
 #captchaImg {
     max-width: 40px;
     margin-right: 10px; 
+}
+
+#back-button {
+    float: left;
+    margin-top: 10px;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bold;
+    border: 2px solid #000000;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 5px;
 }
     
