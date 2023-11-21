@@ -1,0 +1,75 @@
+/* styleptcc.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.sidebar {
+    background-color: #5e22c3; /* Purple color for the sidebar */
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+.sidebar img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    order: 1; /* Move the main content to the left */
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.main-logo {
+    max-height: 100px; /* Adjust the max height for the main logo */
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    height: 100px;
+}
+
+.footer p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.footer-links {
+    color: #ffffff;
+    line-height: 2;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

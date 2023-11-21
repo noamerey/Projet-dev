@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+#back-button {
+    float: left; 
+    margin-top: -20px;
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#calendar {
+    width: 300px;
+    margin: 20px auto;
+}
+
+#header,
+#calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar-table th, #calendar-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#prev-month, #next-month {
+    cursor: pointer;
+    font-weight: bold;
+}

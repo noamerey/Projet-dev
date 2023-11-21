@@ -1,0 +1,138 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    border-top: 1px solid #000000;
+}
+
+section h2 {
+    margin-bottom: 20px; /* Increased margin */
+    text-align: center;
+    font-size: 2.5em; /* Increased font size */
+    font-weight: bold;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 60px; /* Increased padding */
+    margin: 40px 70px; /* Increased margin */
+    text-decoration: none;
+    background-color: #5e22c3;
+    color: #fffefe;
+    border: 0px solid #000;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+    height: 100px;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.footer-links {
+    color: #ffffff;
+    line-height: 2;
+    font-size: 1.2em; /* Increased font size */
+    margin-top: 10px; /* Added margin top */
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.menuDeroulant {
+    position: relative;
+    display: inline-block;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 5px;
+    width: 65px;
+}
+
+.menuDeroulant::after {
+    content: '\25BC';
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.red-asterisk {
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.button-description {
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #555; 
+}

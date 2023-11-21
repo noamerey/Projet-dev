@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="ptcc_logo_main.png" alt="Logo"></a>
+        <div class="menuDeroulant">
+            <select id="language" onchange="changeLanguage()">
+                <option value="fr" selected>FR</option>
+                <option value="es">ES</option>
+                <option value="en">EN</option>
+            </select>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2 class="center">Accueil</h2>
+        <div class="button-container">
+            <a href="../Formulaire/index.html" class="button">S'inscrire <span class="red-asterisk">*</span></a>
+            <a href="../Calendrier/index.html" class="button">Calendrier</a>
+        </div>
+    </section>
+
+    <p class="button-description">* You must register to access Labcyber </p>
+
+    <footer>
+        <p>&copy; 2023 Labcyber. All rights reserved.</p>
+        <br>
+        <div class="footer-links">
+            <a href="https://ptcc.fr/contact/" target="_blank">Contact</a> | <a href="https://ptcc.fr/mentions-legales/" target="_blank">Legal information</a> | <a href="https://ptcc.fr/protection-des-donnees-personnelles/" target="_blank">Cookies</a>
+        </div>
+    </footer>
+</body>
+</html>

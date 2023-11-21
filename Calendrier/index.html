@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="header">
+            <a href="file:///C:/Users/antoi/OneDrive/Bureau/ESILV/3%C3%A8me%20Ann%C3%A9e/projet%20non%20alternant/Projet%20IC/Page%20Accueil/index.html" id="back-button" >Retour</a>
+        </div>
+        <div id="calendar">
+            <span id="prev-month">&lt;</span>
+            <span id="current-month-year">Month Year</span>
+            <span id="next-month">&gt;</span>
+        </div>
+        <table id="calendar-table">
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body"></tbody>
+        </table>
+    </div>
+
+    <script>
+        // JavaScript code for calendar functionality
+        document.addEventListener("DOMContentLoaded", function () {
+            const calendarBody = document.getElementById("calendar-body");
+            const currentMonthYear = document.getElementById("current-month-year");
+            const prevMonth = document.getElementById("prev-month");
+            const nextMonth = document.getElementById("next-month");
+
+            let currentDate = new Date();
+
+            function updateCalendar() {
+                const firstDay = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
+                const lastDay = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
+                const daysInMonth = lastDay.getDate();
+                const startDay = firstDay.getDay();
+
+                currentMonthYear.textContent = `${months[currentDate.getMonth()]} ${currentDate.getFullYear()}`;
+
+                let dayCounter = 1;
+
+                calendarBody.innerHTML = "";
+
+                for (let i = 0; i < 6; i++) {
+                    const row = document.createElement("tr");
+
+                    for (let j = 0; j < 7; j++) {
+                        const cell = document.createElement("td");
+
+                        if ((i === 0 && j < startDay) || dayCounter > daysInMonth) {
+                            cell.textContent = "";
+                        } else {
+                            cell.textContent = dayCounter;
+                            dayCounter++;
+                        }
+
+                        row.appendChild(cell);
+                    }
+
+                    calendarBody.appendChild(row);
+                }
+            }
+
+            function updateMonth(offset) {
+                currentDate.setMonth(currentDate.getMonth() + offset);
+                updateCalendar();
+            }
+
+            prevMonth.addEventListener("click", function () {
+                updateMonth(-1);
+            });
+
+            nextMonth.addEventListener("click", function () {
+                updateMonth(1);
+            });
+
+            const months = [
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ];
+
+            updateCalendar();
+        });
+    </script>
+</body>
+</html>
