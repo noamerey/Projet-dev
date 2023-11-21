@@ -1,35 +1,42 @@
-/* styleptcc.css */
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
 }
 
 .container {
     display: flex;
-    justify-content: end;
+    justify-content: flex-start;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-bloc {
+    display: flex;
+    padding: 40px;
 }
 
 .sidebar {
-    background-color: #5e22c3; /* Purple color for the sidebar */
+    display: flex;
+    flex-direction: column;
+    background-color: #5e22c3;
     padding: 20px;
     text-align: center;
     width: auto;
+    gap: 20px;
 }
 
 .sidebar img {
-    display: block;
-    margin-bottom: 10px;
-}
-
-main {
-    flex: 1;
-    padding: 20px;
-    order: 1; /* Move the main content to the left */
+    display: flex;
+    width: 50px;
+    height:50px;
 }
 
 header {
@@ -42,7 +49,7 @@ header {
 }
 
 header img.main-logo {
-    max-height: 100px; /* Adjust the max height for the main logo */
+    max-height: 100px;
 }
 
 footer {
@@ -53,7 +60,7 @@ footer {
     height: 100px;
 }
 
-.footer p {
+footer p {
     margin: 0;
     color: #ffffff;
 }
@@ -62,7 +69,6 @@ footer {
     color: #ffffff;
     line-height: 2;
     font-size: 1.2em;
-    margin-top: 10px;
 }
 
 .footer-links a {
