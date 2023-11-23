@@ -4,7 +4,7 @@ Adresse du site à mettre ici.
 
 ## Présentation du projet
 
-Le [Site du PTCC](ptcc.fr) est le site web du Programme de Transfert au Campus Cyber. Le projet que l’on nous a confié relève du domaine du développement web. Il consiste à créer un site web étant une extension du site officiel de l’INRIA et permettant de s’inscrire au LabCyber ainsi que de pouvoir consulter des tutoriels vidéo des outils du LabCyber et les évènements qui y sont prévus via un calendrier.  
+Le [Site du PTCC](https://www.ptcc.fr) est le site web du Programme de Transfert au Campus Cyber. Le projet que l’on nous a confié relève du domaine du développement web. Il consiste à créer un site web étant une extension du site officiel de l’INRIA et permettant de s’inscrire au LabCyber ainsi que de pouvoir consulter des tutoriels vidéo des outils du LabCyber et les évènements qui y sont prévus via un calendrier.  
 
 ## Contexte du projet
 
