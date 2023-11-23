@@ -29,6 +29,11 @@ Le site comprend 3 grosses fonctionalités majeures :
 - Site développé en [WordPress](https://fr.wordpress.org/).
 - [Base de données du DVIC](https://dvic.devinci.fr/knowledge-base ).
 
+## BUGS A FIX ‼️ ‼️
+- Si l'utilisateur se trompe lors de son premier essai du captcha, même si il réussi les autres essais, le site affichera que le résultat du captcha est faux.
+- Gérer les doublons 
+- No SQL
+- alerte : "Le fichier a bien été soumis"
 
 ## Collaborateurs
 
