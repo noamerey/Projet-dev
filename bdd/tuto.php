@@ -1,5 +1,7 @@
 <?php
 
+// Système de recherche de tutos par mots clés
+
 include_once("config.php");
 
 $connexion = new mysqli($serveur, $utilisateur, $motDePasse, $nomBaseDeDonnees);

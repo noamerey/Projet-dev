@@ -29,6 +29,14 @@ Le site comprend 3 grosses fonctionalités majeures :
 - Site développé en [WordPress](https://fr.wordpress.org/).
 - [Base de données du DVIC](https://dvic.devinci.fr/knowledge-base ).
 
+## Ajouts de tutos à la BDD
+
+- Titre (500 caractères max)
+- Auteur (100 caractères max)
+- Mots clés (3000 caractères max)
+- mp4 (chemin vers le fichier, 5000 caractères max)
+- pdf (chemin vers le fichier, 5000 caractères max)
+
 ## BUGS A FIX ‼️‼️
 - Si l'utilisateur se trompe lors de son premier essai du captcha, même si il réussi les autres essais, le site affichera que le résultat du captcha est faux.
 - Gérer les doublons 

@@ -1,6 +1,6 @@
 <?php
 
-include_once("config.php");
+/*include_once("config.php");
 
 $connexion = new mysqli($serveur, $utilisateur, $motDePasse, $nomBaseDeDonnees);
 
@@ -39,6 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-$connexion->close();
+$connexion->close();*/
 
 ?>
