@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 25, 2023 at 05:34 PM
+-- Generation Time: Nov 26, 2023 at 04:46 PM
 -- Server version: 5.7.24
 -- PHP Version: 8.0.1
 
@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tutos`
+-- Table structure for table `quantum computing`
 --
 
-CREATE TABLE `tutos` (
+CREATE TABLE `quantum computing` (
   `id` int(255) NOT NULL,
   `titre` varchar(500) NOT NULL,
   `auteur` varchar(100) NOT NULL,
@@ -36,16 +36,25 @@ CREATE TABLE `tutos` (
   `pdf` varchar(5000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `quantum computing`
+--
 
+INSERT INTO `quantum computing` (`id`, `titre`, `auteur`, `mots_cles`, `mp4`, `pdf`) VALUES
+(1, 'Deutsch-Jozsa algorithm explained', 'Adem RAHAL', '', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR\r\n', ''),
+(2, 'From Bits To Qubits', 'Adem RAHAL', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR', '', ''),
+(3, 'Introduction To Quantum Computing And Complexity', 'Adem RAHAL', '', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR', ''),
+(4, 'Grover\'s Algorithm Explained', 'Adem RAHAL', '', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR', ''),
+(5, 'Introduction to quantum machine learning', 'Adem RAHAL', '', '', '');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `tutos`
+-- Indexes for table `quantum computing`
 --
-ALTER TABLE `tutos`
+ALTER TABLE `quantum computing`
   ADD PRIMARY KEY (`id`);
 COMMIT;
 
