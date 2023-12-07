@@ -16,6 +16,8 @@
 </form>
 
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 //connexion
 include_once("config.php");
@@ -34,7 +36,7 @@ if (isset($_GET['search'])) {
     $sql = "SELECT * FROM others WHERE titre LIKE '%$search%'";
 
     // Exécution de la requête
-    $result = $conn->query($sql);
+    $result = $connexion->query($sql);
 
     // Affichage des résultats
     if ($result->num_rows > 0) {
@@ -48,7 +50,7 @@ if (isset($_GET['search'])) {
 }
 
 // Fermer la connexion
-$conn->close();
+$connexion->close();
 ?>
 
 </body>
