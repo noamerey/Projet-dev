@@ -10,15 +10,15 @@ if ($connexion->connect_error) {
     die("Échec de la connexion à la base de données : " . $connexion->connect_error);
 }
 
-$titreRecherche = "TitreRecherche";
+$titreRecherche = "Introduction to FPGA synthesis";
 
-$sql = "SELECT URL FROM MaTable WHERE Titre = '$titreRecherche'";
+$sql = "SELECT * FROM others WHERE titre = '$titreRecherche'";
 
-$resultat = $connexion->query("SELECT * FROM Utilisateurs");
+$resultat = $connexion->query($sql);
 
 if ($resultat->num_rows > 0) {
     $row = $resultat->fetch_assoc();
-    $urlTrouvee = $row['URL'];
+    
     echo "L'URL pour le titre '$titreRecherche' est : $urlTrouvee";
 } else {
     echo "Aucun résultat trouvé pour le titre '$titreRecherche'";
