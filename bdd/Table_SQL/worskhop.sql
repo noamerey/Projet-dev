@@ -44,7 +44,7 @@ INSERT INTO `worskhop` (`id`, `titre`, `auteur`, `mots_cles`, `mp4`, `pdf`) VALU
 (1, 'How to craft a part by sand casting in a foundry?', 'Tristan JOURNEL\r\n\r\n', '', '', 'https://dvic.devinci.fr/tutorial/using-foundry'),
 (2, 'Pressed materials', 'Philibert LE GONIDEC DE KERHALIC', '', '', 'https://dvic.devinci.fr/tutorial/pressed-materials'),
 (3, 'Lost Wax Molding', 'Alex DRU', '', '', 'https://dvic.devinci.fr/tutorial/lost-wax-molding'),
-(4, 'Comment utiliser n\'importe quelle découpeuse LASER 2D?', 'Mohammad Reza ZOHRABI', '', '', 'https://dvic.devinci.fr/tutorial/decoupe-laser'),
+(4, 'Comment utiliser n importe quelle découpeuse LASER 2D?', 'Mohammad Reza ZOHRABI', '', '', 'https://dvic.devinci.fr/tutorial/decoupe-laser'),
 (5, 'How to prepare your files for laser cutting?', 'Louis GEISLER', '', '', 'https://dvic.devinci.fr/tutorial/project-laser-cut');
 
 --
