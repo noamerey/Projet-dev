@@ -44,7 +44,7 @@ INSERT INTO `quantum computing` (`id`, `titre`, `auteur`, `mots_cles`, `mp4`, `p
 (1, 'Deutsch-Jozsa algorithm explained', 'Adem RAHAL', '', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR\r\n', ''),
 (2, 'From Bits To Qubits', 'Adem RAHAL', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR', '', ''),
 (3, 'Introduction To Quantum Computing And Complexity', 'Adem RAHAL', '', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR', ''),
-(4, 'Grover\'s Algorithm Explained', 'Adem RAHAL', '', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR', ''),
+(4, 'Grover s Algorithm Explained', 'Adem RAHAL', '', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR', ''),
 (5, 'Introduction to quantum machine learning', 'Adem RAHAL', '', '', '');
 
 --
