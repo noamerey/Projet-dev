@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `3d printing`
 --
 
-CREATE TABLE `3d printing` (
+CREATE TABLE `3dprinting` (
   `id` int(255) NOT NULL,
   `titre` varchar(500) NOT NULL,
   `auteur` varchar(100) NOT NULL,
@@ -58,7 +58,7 @@ INSERT INTO `3d printing` (`id`, `titre`, `auteur`, `mots_cles`, `mp4`, `pdf`) V
 --
 -- Index pour la table `3d printing`
 --
-ALTER TABLE `3d printing`
+ALTER TABLE `3dprinting`
   ADD PRIMARY KEY (`id`);
 COMMIT;
 
