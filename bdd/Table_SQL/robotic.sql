@@ -51,7 +51,7 @@ INSERT INTO `robotic` (`id`, `titre`, `auteur`, `mots_cles`, `mp4`, `pdf`) VALUE
 (8, 'Writing with a robotic arm', 'Dimitri VINET', '', 'https://www.youtube.com/watch?v=gNsNKeo3ZPc&embeds_referring_euri=https%3A%2F%2Fdvic.devinci.fr%2F&source_ve_path=OTY3MTQ&feature=emb_imp_woyt', ''),
 (9, 'Program a sphero bolt in python\r\n', 'Bérénice DUFAURE', '', '', ''),
 (10, 'Introduction to Robot Operating System ?', 'Brice PARILUSYAN', '', '', ''),
-(11, 'Comment asservir simplement la rotation d\'un moteur à l\'aide d\'un PID ?', 'Thomas-Jean-Yvon RAYNAL', '', '', ''),
+(11, 'Comment asservir simplement la rotation d un moteur à l aide d un PID ?', 'Thomas-Jean-Yvon RAYNAL', '', '', ''),
 (12, 'Comment créer un environnement de simulation pour robot autonome PARTIE 3', 'Teddy LECLERCQ', '', '', ''),
 (13, 'Comment créer un environnement de simulation pour robot autonome PARTIE 2', 'Teddy LECLERCQ', '', '', ''),
 (14, 'Comment créer un environnement de simulation pour robot autonome PARTIE 1', 'Teddy LECLERCQ', '', '', ''),
