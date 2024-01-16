@@ -1,16 +1,14 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    min-height: 100vh; 
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
     display: flex;
@@ -29,16 +27,17 @@ header img {
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 0 10px; 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
 }
 
 section {
@@ -46,21 +45,22 @@ section {
     border-top: 1px solid #000000;
 }
 
-section h2 {
-    margin-bottom: 20px; /* Increased margin */
+.section h2 {
+    margin-bottom: 20px;
     text-align: center;
-    font-size: 2.5em; /* Increased font size */
+    font-size: 2.5em; 
     font-weight: bold;
 }
 
 .button-container {
     text-align: center;
+    margin-top: 20px; 
 }
 
 .button {
     display: inline-block;
-    padding: 15px 60px; /* Increased padding */
-    margin: 40px 70px; /* Increased margin */
+    padding: 15px 60px;
+    margin: 40px 70px; 
     text-decoration: none;
     background-color: #5e22c3;
     color: #fffefe;
@@ -97,35 +97,6 @@ footer p {
     text-decoration: underline;
 }
 
-.menuDeroulant {
-    position: relative;
-    display: inline-block;
-}
-
-select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #333;
-    border-radius: 5px;
-    width: 65px;
-}
-
-.menuDeroulant::after {
-    content: '\25BC';
-    font-size: 16px;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-}
-
 .red-asterisk {
     font-size: 1.2em;
     margin-left: 5px;
@@ -135,4 +106,86 @@ select {
     font-size: 0.8em;
     margin-top: 5px;
     color: #555; 
+}
+
+.content-container {
+
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.main-title {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-family:'Helvetica', Arial, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.main-title::before {
+    content: "| "; 
+    color: #5e22c3; 
+}
+
+.card {
+    display: flex;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.image-container {
+    flex: 0 0 40%; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    flex: 0 0 60%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.premier-para {
+    font-size: 2.2em;
+    color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.description-container {
+    flex: 0 0 30%;
+    white-space: normal;
+    padding-top: 10px;
+}
+
+.description-container p {
+    display: inline !important;
+}
+.registration-links {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.bullet-point {
+    font-size: 1.2em;
+    color: #000000;
+    margin-right: 5px;
+}
+
+.registration-links a {
+    text-decoration: none;
+    color: #5e22c3;
+    font-weight: bold;
+    font-family: 'Montserrat','Helvetica', Arial, sans-serif;
+
 }
