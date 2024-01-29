@@ -162,10 +162,14 @@ footer p {
     
 }
 .premier-para a {
-    text-decoration: none; 
+    text-decoration: none;
     color: inherit;
-
 }
+
+.premier-para a:hover {
+    text-decoration: underline;
+}
+
 .description-container {
     flex: 0 0 30%;
     white-space: normal;
