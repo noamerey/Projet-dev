@@ -161,7 +161,11 @@ footer p {
     align-items: center;
     
 }
+.premier-para a {
+    text-decoration: none; 
+    color: inherit;
 
+}
 .description-container {
     flex: 0 0 30%;
     white-space: normal;
