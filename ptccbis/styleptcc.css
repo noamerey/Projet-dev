@@ -11,6 +11,28 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+.container p {
+    color: #383838;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.additional-logo {
+    max-width: 130px;
+    max-height: 130px; 
+}
+
 
 main{
     display: flex;
@@ -79,3 +101,5 @@ footer p {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+
