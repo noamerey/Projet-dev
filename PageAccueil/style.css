@@ -169,7 +169,13 @@ footer p {
 }
 
 .description-container p {
-    display: inline !important;
+    font-size: 1.2em;
+    margin-left: 35px;
+}
+
+.description-container a {
+    color: #5e22c3;
+    text-decoration: none;
 }
 .registration-links {
     text-align: left;
